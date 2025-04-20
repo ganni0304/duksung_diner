@@ -1,0 +1,42 @@
+/* 테이블 항목에 마우스 hover 효과 */
+table tbody tr:hover {
+    background-color: #f0f0f0; }
+  /* 외부 링크 스타일 */
+a {
+    color: #007bff;
+    text-decoration: none;}
+
+a:hover {
+    text-decoration: underline;
+}
+/* 전체 페이지에서 콘텐츠를 중앙 정렬 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* 텍스트 중앙 정렬 */
+    margin: 0;
+}
+
+.content {
+    width: 80%; /* 콘텐츠 너비 */
+    max-width: 1200px; /* 최대 너비 */
+    margin: auto; /* 좌우 중앙 정렬 */
+    padding: 20px;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; /* 테이블 내용 중앙 정렬 */
+    border: 1px solid #ddd;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
